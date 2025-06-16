@@ -15,7 +15,7 @@ st.title("Gerador de Histórias para Voz IA (Mobile Ready)")
 
 api_key = st.text_input("API Key Gemini/YouTube", type="password")
 video_url = st.text_input("URL do vídeo (opcional)")
-premissa = st.text_area("Premissa do roteiro (opcional)", height=60)
+premissa = st.text_area("Premissa do roteiro (opcional)")
 
 nichos = [
     "Reencontro de família", "Superação após perda", "Milionário transforma vida",
